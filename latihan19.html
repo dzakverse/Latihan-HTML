@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 19 - Rowspan & Colspan</title> <!-- tapi atribut ini sudah tidak berlaku di html versi 5, bisa di gunakan lewat css-->
+</head>
+<body>
+
+    <table border="1" cellspacing="1" cellpadding="10" align="center"> 
+        <caption>Elemen Tabel Pada HTML</caption> <!-- untuk memberikan judul pada html-->
+        <tr>
+            <th>ini kolom 1</th>
+            <th>ini kolom 2</th>
+            <th>ini kolom 3</th>
+        </tr>
+
+        <tr>
+            <td colspan="2">ini baris 2 kolom 1</td> <!-- colspan digunakan untuk menggabungkan beberapa kolom(kesamping/horizontal)-->
+ 
+           <td>ini baris 2 kolom 3</td>
+        </tr>
+
+        <tr>
+            <td>ini baris 3 kolom 1</td>
+            <td>ini baris 3 kolom 2</td>
+            <td>ini baris 3 kolom 3</td>
+        </tr>
+    </table> <br>
+
+    <table border="1" cellspacing="1" cellpadding="10" align="center"> <!-- untuk mengatur posisi tabel pada HTML-->
+        <caption>Elemen Tabel Pada HTML</caption> 
+        <tr>
+            <th>ini kolom 1</th>
+            <th>ini kolom 2</th>
+            <th>ini kolom 3</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">ini baris 2 kolom 1</td> <!-- rowspan digunakan untuk menggabungkan beberapa baris(kebawah/vertikal)-->
+            <td>ini baris 2 kolom 2</td>
+            <td>ini baris 2 kolom 3</td>
+        </tr>
+
+        <tr>
+            <!-- <td>ini baris 3 kolom 1</td> -->
+            <td>ini baris 3 kolom 2</td>
+            <td>ini baris 3 kolom 3</td>
+        </tr>
+    </table> <br>
+
+    <table border="1" cellspacing="1" cellpadding="10" align="center"> 
+        <caption>Elemen Tabel Pada HTML</caption> <!-- untuk memberikan judul pada html-->
+        <tr>
+            <th>ini kolom 1</th>
+            <th>ini kolom 2</th>
+            <th>ini kolom 3</th>
+        </tr>
+
+        <tr>
+            <td>ini baris 2 kolom 1</td> <!-- colspan digunakan untuk menggabungkan beberapa kolom(kesamping/horizontal)-->
+            <td colspan="2" align="center">ini baris 2 kolom 3</td>
+        </tr>
+
+        <tr>
+            <td>ini baris 3 kolom 1</td>
+            <td>ini baris 3 kolom 2</td>
+            <td>ini baris 3 kolom 3</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>

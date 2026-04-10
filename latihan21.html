@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 21 - Elemen Form </title>
+</head>
+<body>
+    <form action="">
+        <p> username : <input type="text"> </p>
+        <p> password : <input type="password"> </p>
+        <button type="submit" name="submit">login</button>
+    </form> <br> <br>
+
+    <!-- pertemuan 22 -->
+    <p>Alamat Lengkap <textarea name="" id="" cols="30" rows="10">Alamat Lengkap</textarea> </p>
+
+    <!-- pertemuan 23 -->
+    <p>Tanggal Lahir :  <input type="date" name="" id=""> </p>
+
+    <!-- pertemuan 24 Radio Button-->
+    <p>Jenis Kelamin : 
+        <input type="radio" name="JenisKelamin" id="" value="LakiLaki">Laki Laki
+        <input type="radio" name="JenisKelamin" id="" value="Perempuan">Perempuan
+    </p>
+
+    <p>Golongan Darah : 
+        <input type="radio" name="GolonganDarah" id="" value="A">A
+        <input type="radio" name="GolonganDarah" id="" value="AB">AB
+        <input type="radio" name="GolonganDarah" id="" value="B">B
+        <input type="radio" name="GolonganDarah" id="" value="O">O
+    </p>
+
+    <!-- pertemuan 25 checkbox -->
+    <p>Hobi : 
+        <input type="checkbox" name="" id="">Membaca
+        <input type="checkbox" name="" id="">Ngoding
+        <input type="checkbox" name="" id="">Ngidol
+        <input type="checkbox" name="" id="">Otomotif
+    </p>
+
+    <!-- pertemuan 26 select option -->
+    <P>Pilih Oshi : 
+    <select name="" id="">
+        <option value="" selected></option> <!-- untuk pilihan default-->
+        <option value="">Gracie</option>
+        <option value="">Michie</option>
+        <option value="">Lily</option>
+        <option value="">Trisha</option>
+     </select> </P>
+
+    <!-- pertemuan 27 Lable -->
+    <p> 
+        <label for="username">username : </label>
+        <input type="text" name="" id="username">
+    </p>
+
+    <p> 
+        <label for="pilihan"> pilihan : 
+        <input type="checkbox" name="" id="pilihan">HTML
+        </label>
+    </p>
+
+    <p> pilihan :
+        <label for="pilihan">  
+        <input type="checkbox" name="" id="pilihan">HTML
+        </label>
+    </p>
+
+    <p>
+        jenis kelamin : 
+        <label for="lakilaki"> <!--jadi for di sini diisi pakai id input-->
+        <input type="radio" name="jeniskelamin" id="lakilaki"> laki Laki
+        </label>
+
+        <label for="perempuan">
+        <input type="radio" name="jeniskelamin" id="perempuan"> perempuan
+        </label>
+    </p>
+
+    <!--pertemuan 28 tag fieldset & legend-->
+    <fieldset> <!--untuk membungkus-->
+        <legend> <!--untuk memberi judul-->
+            Data Peserta
+        </legend>
+        <p>Nama : <input type="text" name="" id=""></p>
+        <P>Alamat : <input type="text"></P>
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            Pilih Paket Pilihan
+        </legend>
+        <p><input type="checkbox">HTML</p>
+        <p><input type="checkbox">CSS</p>
+        <p><input type="checkbox">JavaScript</p>
+        <p><input type="checkbox">PHP</p>
+    </fieldset>
+</body>
+</html>

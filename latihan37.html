@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atribut Elemen Form</title>
+</head>
+<body>
+    <!-- atribut type menentukan tag input seperti apa yang akan dibuat (teks, password, radiobutton, checkbox dll), sedangkan atribut name digunakan sebagai nama variabel yang akan di proses oleh web browser (ketika sudah berinteraksi dengan data base)  -->
+    <p>No ID: <input type="text" name="id" hidden></p> <!--hidden ini untuk menonaktifkan input dari elemen form, namun nilainya tetap kita butuhkan(nilainya akan secara otomatis diurutkan oleh data base) -->
+    
+    <p>No ID: <input type="text" name="id" disabled></p> <!--inputnya tetap ada tapi disable-->
+
+    <p>Nama Lengkap <input type="text" name="nama_lengkap" id="" autofocus></p> <!--kursor secara otomatis terfokus tanpa harus di klik-->
+
+    <p>Email: <input type="email" name="email" id="" autocomplete="off"></p>
+    
+</body>
+</html>
