@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Picture and Source</title>
+</head>
+<body>
+    <h4>Picture</h4>
+    <p>elemen HTML yang memungkinkan kita untuk menyediakan beberapa versi ukuran gambar yang berbeda</p>
+    <h4>Source</h4>
+    <p>Tag yang digunakan dalam tag picture untuk mendefinisikan berbagai versi ukuran gambar. setiap source menentukan lokasi gambar yang akan digunakan berdasarkan ukuran gambar</p>
+    <p>fungsi : untuk menampilkan gambar yang responsif, gambar tersebut bisa berubah berdasarkan ukuran layar tertentu</p>
+
+    <picture>
+        <source srcset="gambar/coffee_small.png" media="(max-width:500px)">
+        <source srcset="gambar/coffee_medium.png" media="(max-width:850px)">
+        <img src="gambar/coffee_big.png" alt="coffee_big" style="width: 100%;">
+
+    </picture>
+</body>
+</html>
